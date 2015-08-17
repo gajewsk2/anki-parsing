@@ -16,7 +16,7 @@ def main():
     remove_file(output)
 
     # i = open(input_file, 'r')
-    list_i = [strip_tags(i) for i in open(input_file, encoding="utf8").readlines()]
+    list_i = [strip_tags(i).replace('[sound:', '\t[sound:') for i in open(input_file, encoding="utf8").readlines()]
 
 
     # clean_i = strip_tags(li)

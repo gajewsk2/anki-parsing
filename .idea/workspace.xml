@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb9c072b-cbea-41f6-b15b-880a039895c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JP101.com.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bu.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html_stripper.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parser.py" afterPath="$PROJECT_DIR$/parser.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jpod101.iws" />
@@ -23,7 +17,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/jpod101$parser.coverage" NAME="parser Coverage Results" MODIFIED="1439765945592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/jpod101$parser.coverage" NAME="parser Coverage Results" MODIFIED="1439767549077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -36,10 +30,10 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="JP101.com.txt" pinned="false" current-in-tab="true">
+            <file leaf-file-name="JP101.com.txt" pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/JP101.com.txt">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.87265915" vertical-offset="355672" max-vertical-offset="356473">
+                  <state vertical-scroll-proportion="-6.1858406" vertical-offset="355672" max-vertical-offset="356473">
                     <caret line="20963" column="238" selection-start-line="20963" selection-start-column="238" selection-end-line="20963" selection-end-column="238" />
                     <folding />
                   </state>
@@ -49,11 +43,11 @@
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="1.csv" pinned="false" current-in-tab="false">
+            <file leaf-file-name="1.csv" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/output/1.csv">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="356490">
-                    <caret line="0" column="125" selection-start-line="0" selection-start-column="125" selection-end-line="0" selection-end-column="125" />
+                  <state vertical-scroll-proportion="-417.99173" vertical-offset="355644" max-vertical-offset="356490">
+                    <caret line="119" column="71" selection-start-line="119" selection-start-column="71" selection-end-line="119" selection-end-column="71" />
                     <folding />
                   </state>
                 </provider>
@@ -75,11 +69,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="parser.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="parser.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/parser.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="101" max-vertical-offset="663">
-                  <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.54448396" vertical-offset="0" max-vertical-offset="663">
+                  <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
                   <folding>
                     <element signature="e#0#36#0" expanded="true" />
                   </folding>
@@ -97,11 +91,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="bu.txt" pinned="false" current-in-tab="true">
+          <file leaf-file-name="bu.txt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bu.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-744.43933" vertical-offset="355995" max-vertical-offset="356473">
-                  <caret line="9" column="191" selection-start-line="9" selection-start-column="191" selection-end-line="9" selection-end-column="191" />
+                <state vertical-scroll-proportion="-3.0595238" vertical-offset="355995" max-vertical-offset="356473">
+                  <caret line="20956" column="180" selection-start-line="20956" selection-start-column="180" selection-end-line="20956" selection-end-column="180" />
                   <folding />
                 </state>
               </provider>
@@ -146,8 +140,8 @@
       <list>
         <option value="$PROJECT_DIR$/html_stripper.py" />
         <option value="$PROJECT_DIR$/bu.txt" />
-        <option value="$PROJECT_DIR$/parser.py" />
         <option value="$PROJECT_DIR$/JP101.com.txt" />
+        <option value="$PROJECT_DIR$/parser.py" />
       </list>
     </option>
   </component>
@@ -481,6 +475,13 @@
       <option name="number" value="Default" />
       <updated>1439759001125</updated>
     </task>
+    <task id="LOCAL-00001" summary="Parsing all text even anki tags">
+      <created>1439767325779</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1439767325779</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -545,6 +546,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Parsing all text even anki tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parsing all text even anki tags" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -823,27 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="101" max-vertical-offset="663">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/1.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="356490">
-          <caret line="0" column="125" selection-start-line="0" selection-start-column="125" selection-end-line="0" selection-end-column="125" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html_stripper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
@@ -852,10 +834,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bu.txt">
+    <entry file="file://$PROJECT_DIR$/JP101.com.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-744.43933" vertical-offset="355995" max-vertical-offset="356473">
-          <caret line="9" column="191" selection-start-line="9" selection-start-column="191" selection-end-line="9" selection-end-column="191" />
+        <state vertical-scroll-proportion="-6.1858406" vertical-offset="355672" max-vertical-offset="356473">
+          <caret line="20963" column="238" selection-start-line="20963" selection-start-column="238" selection-end-line="20963" selection-end-column="238" />
           <folding />
         </state>
       </provider>
@@ -863,10 +845,31 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JP101.com.txt">
+    <entry file="file://$PROJECT_DIR$/bu.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87265915" vertical-offset="355672" max-vertical-offset="356473">
-          <caret line="20963" column="238" selection-start-line="20963" selection-start-column="238" selection-end-line="20963" selection-end-column="238" />
+        <state vertical-scroll-proportion="-3.0595238" vertical-offset="355995" max-vertical-offset="356473">
+          <caret line="20956" column="180" selection-start-line="20956" selection-start-column="180" selection-end-line="20956" selection-end-column="180" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54448396" vertical-offset="0" max-vertical-offset="663">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-417.99173" vertical-offset="355644" max-vertical-offset="356490">
+          <caret line="119" column="71" selection-start-line="119" selection-start-column="71" selection-end-line="119" selection-end-column="71" />
           <folding />
         </state>
       </provider>
