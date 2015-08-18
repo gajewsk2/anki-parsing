@@ -39,7 +39,7 @@ def main():
         except:
             added[exp] = True
             first = '\t'.join([split_i[0],split_i[1],split_i[2],split_i[3]])
-            line = first + ' ' + ' '.join(new_file[exp])
+            line = first + '\t' + ' '.join(new_file[exp])
             o.write("%s\n" % line)
     o.close()
 

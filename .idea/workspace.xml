@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb9c072b-cbea-41f6-b15b-880a039895c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/deck1.txt" />
+    <list default="true" id="eb9c072b-cbea-41f6-b15b-880a039895c4" name="Default" comment="final fix">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/1.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/2.csv" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/deck3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tag_combiner.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bu.txt" afterPath="$PROJECT_DIR$/bu.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log.txt" afterPath="$PROJECT_DIR$/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag_combiner.py" afterPath="$PROJECT_DIR$/tag_combiner.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jpod101.iws" />
@@ -21,7 +21,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/jpod101$tag_combiner.coverage" NAME="tag_combiner Coverage Results" MODIFIED="1439797564180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/jpod101$tag_combiner.coverage" NAME="tag_combiner Coverage Results" MODIFIED="1439865779909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/jpod101$parser.coverage" NAME="parser Coverage Results" MODIFIED="1439767549077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -38,8 +38,8 @@
             <file leaf-file-name="deck1.txt" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/deck1.txt">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="86037">
-                    <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <state vertical-scroll-proportion="0.4491726" vertical-offset="82427" max-vertical-offset="347497">
+                    <caret line="4871" column="0" selection-start-line="4871" selection-start-column="0" selection-end-line="4871" selection-end-column="0" />
                     <folding />
                   </state>
                 </provider>
@@ -59,13 +59,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tag_combiner.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tag_combiner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tag_combiner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53125" vertical-offset="102" max-vertical-offset="1037">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="935">
+              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/2.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.20238096" vertical-offset="0" max-vertical-offset="261494">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="backup.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backup.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.2142857" vertical-offset="0" max-vertical-offset="347497">
+              <caret line="6" column="85" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="85" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/1.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="356490">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -102,11 +141,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="log.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/log.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="145178" max-vertical-offset="145741">
-              <caret line="8567" column="42" selection-start-line="8567" selection-start-column="42" selection-end-line="8567" selection-end-column="42" />
+            <state vertical-scroll-proportion="1.6049823" vertical-offset="18274" max-vertical-offset="19448">
+              <caret line="1128" column="37" selection-start-line="1128" selection-start-column="37" selection-end-line="1128" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -125,8 +164,8 @@
       <file leaf-file-name="bu.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bu.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.745455" vertical-offset="346694" max-vertical-offset="347497">
-              <caret line="20435" column="94" selection-start-line="20435" selection-start-column="94" selection-end-line="20435" selection-end-column="94" />
+            <state vertical-scroll-proportion="-6.5636363" vertical-offset="346694" max-vertical-offset="347497">
+              <caret line="20415" column="77" selection-start-line="0" selection-start-column="0" selection-end-line="20435" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -147,11 +186,12 @@
         <option value="$PROJECT_DIR$/JP101.com.txt" />
         <option value="$PROJECT_DIR$/parser.py" />
         <option value="$PROJECT_DIR$/bu.txt" />
-        <option value="$PROJECT_DIR$/log.txt" />
         <option value="$PROJECT_DIR$/deck2.txt" />
-        <option value="$PROJECT_DIR$/deck1.txt" />
         <option value="$PROJECT_DIR$/deck3.txt" />
+        <option value="$PROJECT_DIR$/deck1.txt" />
+        <option value="$PROJECT_DIR$/output/2.csv" />
         <option value="$PROJECT_DIR$/tag_combiner.py" />
+        <option value="$PROJECT_DIR$/log.txt" />
       </list>
     </option>
   </component>
@@ -513,7 +553,19 @@
       <option name="project" value="LOCAL" />
       <updated>1439769976435</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mid point check in">
+      <created>1439817577722</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1439817577722</updated>
+    </task>
+    <task id="LOCAL-00004" summary="final fix">
+      <created>1439865705130</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1439865705130</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -538,23 +590,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32814237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32850778" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26332623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26332623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39822024" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3596882" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -580,7 +632,9 @@
     </option>
     <MESSAGE value="Parsing all text even anki tags" />
     <MESSAGE value="Successfully generated anki csv" />
-    <option name="LAST_COMMIT_MESSAGE" value="Successfully generated anki csv" />
+    <MESSAGE value="mid point check in" />
+    <MESSAGE value="final fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="final fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -612,26 +666,21 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/tag_combiner.py</url>
-          <line>45</line>
-          <option name="timeStamp" value="13" />
+          <line>42</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/tag_combiner.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/tag_combiner.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="15" />
+          <line>33</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="new_file['乾杯']" />
-        <watch expression="i" />
+        <watch expression="added" />
       </configuration>
     </watches-manager>
   </component>
@@ -901,17 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/1.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2023" max-vertical-offset="356490">
-          <caret line="119" column="71" selection-start-line="119" selection-start-column="71" selection-end-line="119" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JP101.com.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9041096" vertical-offset="355645" max-vertical-offset="356473">
@@ -923,37 +961,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bu.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.745455" vertical-offset="346694" max-vertical-offset="347497">
-          <caret line="20435" column="94" selection-start-line="20435" selection-start-column="94" selection-end-line="20435" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://C:/Python34/Lib/html/parser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19517796" vertical-offset="2550" max-vertical-offset="9384">
           <caret line="164" column="0" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html_stripper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="391">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="145178" max-vertical-offset="145741">
-          <caret line="8567" column="42" selection-start-line="8567" selection-start-column="42" selection-end-line="8567" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -976,10 +987,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deck2.txt">
+    <entry file="file://$PROJECT_DIR$/bu.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.366667" vertical-offset="167835" max-vertical-offset="168368">
-          <caret line="9898" column="297" selection-start-line="9898" selection-start-column="297" selection-end-line="9898" selection-end-column="297" />
+        <state vertical-scroll-proportion="-6.5636363" vertical-offset="346694" max-vertical-offset="347497">
+          <caret line="20415" column="77" selection-start-line="0" selection-start-column="0" selection-end-line="20435" selection-end-column="94" />
           <folding />
         </state>
       </provider>
@@ -995,10 +1006,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deck1.txt">
+    <entry file="file://$PROJECT_DIR$/deck2.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="86037">
+        <state vertical-scroll-proportion="-14.366667" vertical-offset="167835" max-vertical-offset="168368">
+          <caret line="9898" column="297" selection-start-line="9898" selection-start-column="297" selection-end-line="9898" selection-end-column="297" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="356490">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html_stripper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="391">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2142857" vertical-offset="0" max-vertical-offset="347497">
+          <caret line="6" column="85" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="85" />
           <folding />
         </state>
       </provider>
@@ -1008,8 +1049,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tag_combiner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53125" vertical-offset="102" max-vertical-offset="1037">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="935">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deck1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4491726" vertical-offset="82427" max-vertical-offset="347497">
+          <caret line="4871" column="0" selection-start-line="4871" selection-start-column="0" selection-end-line="4871" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.20238096" vertical-offset="0" max-vertical-offset="261494">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6049823" vertical-offset="18274" max-vertical-offset="19448">
+          <caret line="1128" column="37" selection-start-line="1128" selection-start-column="37" selection-end-line="1128" selection-end-column="37" />
           <folding />
         </state>
       </provider>
