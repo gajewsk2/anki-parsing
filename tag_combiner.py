@@ -10,7 +10,7 @@ def remove_file(filename):
 
 
 def main():
-    input_file = 'deck1.txt'
+    input_file = 'backup.txt'
     output = 'output/2.csv'
     remove_file(output)
 
@@ -19,34 +19,28 @@ def main():
     for i in open(input_file, encoding="utf8").readlines():
         split_i = i.split('\t', 4)
         exp = split_i[0]
-        tags = split_i[4]
+        tags = split_i[4].split(' ')
+        tags = [x.replace('\n', '') for x in tags]
         try:
-            n = new_file[exp].split('\t', 4)
-            set(tags).union(t)
-            new_file[exp] = new_file[exp].replace('\n', str(n[4]) + '\n')
+            for t in tags:
+                new_file[exp].add(t)
         except KeyError:
-            new_file[exp] = i
-        #
-        #     split_n = n.split('\t', 4)
-        #     exp_n = split_n[0]
-        #     tag_n = split_n[4]
-        #     if exp_n == exp:
-        #         original = new_file[new_file.index(n)]
-        #         new_file[new_file.index(n)] = original + tag_n
-        #         added = True
-        #         break
-        # if not added:
-        #     new_file.append()
+            new_file[exp] = set(tags)
 
-
-
-
-    # clean_i = strip_tags(li)
-
+    print(len(new_file.keys()))
+    added = {}
     o = open(output, 'a+', encoding="utf8")
-    for key in new_file:
-        o.write("%s" % new_file[key])
-    # o.write(li.encode('utf8'))
+    for i in open(input_file, encoding="utf8").readlines():
+        split_i = i.split('\t', 4)
+        exp = split_i[0]
+        try:
+            if added[exp]:
+                pass
+        except:
+            added[exp] = True
+            first = '\t'.join([split_i[0],split_i[1],split_i[2],split_i[3]])
+            line = first + ' ' + ' '.join(new_file[exp])
+            o.write("%s\n" % line)
     o.close()
 
 
